@@ -11,7 +11,6 @@ Source0: http://prdownloads.sourceforge.net/dumb/%{oname}-%{version}.tar.bz2
 License: GPL
 Group: Sound
 Url: http://dumb.sf.net/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: dumb-devel
 BuildRequires: xmms-devel
 Requires: xmms
