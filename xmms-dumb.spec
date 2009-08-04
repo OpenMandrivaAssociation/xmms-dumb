@@ -1,14 +1,14 @@
 %define name xmms-dumb
 %define oname dumb-xmms
 %define version 0.1
-%define release %mkrel 6
+%define release %mkrel 7
 
 Summary: MOD player plugin for XMMS based on DUMB
 Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: http://prdownloads.sourceforge.net/dumb/%{oname}-%{version}.tar.bz2
-License: GPL
+License: GPLv2+
 Group: Sound
 Url: http://dumb.sf.net/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
