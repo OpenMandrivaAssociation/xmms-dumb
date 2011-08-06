@@ -1,7 +1,7 @@
 %define name xmms-dumb
 %define oname dumb-xmms
 %define version 0.1
-%define release %mkrel 8
+%define release %mkrel 9
 
 Summary: MOD player plugin for XMMS based on DUMB
 Name: %{name}
