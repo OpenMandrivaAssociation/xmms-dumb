@@ -1,0 +1,10 @@
+diff -p -up dumb-xmms/Makefile.inc~ dumb-xmms/Makefile.inc
+--- dumb-xmms/Makefile.inc~	2003-04-08 18:36:00.000000000 +0200
++++ dumb-xmms/Makefile.inc	2010-08-05 10:42:13.000000000 +0200
+@@ -1,5 +1,5 @@
+ CC := gcc
+-CFLAGS := -O2 -ffast-math -fomit-frame-pointer
++CFLAGS := -fPIC -O2 -ffast-math -fomit-frame-pointer
+ CFLAGS += `glib-config --cflags` `gtk-config --cflags`
+ 
+ $(PLUGIN_FILE): $(OBJECTS)
