@@ -22,7 +22,7 @@ This is a plugin for XMMS that can play IT/XM/S3M/MOD files.
 
 %prep
 %setup -q -n %oname
-%apply_patches
+%autopatch -p1
 
 %build
 %make
