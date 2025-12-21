@@ -13,6 +13,7 @@ License: GPLv2+
 Group: Sound
 Url: https://dumb.sf.net/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	make
 BuildRequires: dumb-devel
 BuildRequires: xmms-devel
 Requires: xmms
